@@ -2,7 +2,7 @@
 package client;
 
 import client.bean.ServerInfo;
-import clink.net.qiujuer.clink.net.qiujuer.clink.utils.ByteUtils;
+import clink.net.qiujuer.clink.utils.ByteUtils;
 import constants.UDPConstants;
 
 import java.io.IOException;
@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-public class ClientSearcher {
+public class UDPSearcher {
     private static final int LISTEN_PORT = UDPConstants.PORT_CLIENT_RESPONSE;
 
     public static ServerInfo searchServer(int timeout) {
